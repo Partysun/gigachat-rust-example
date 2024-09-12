@@ -1,0 +1,9 @@
+[package]
+name = "gigachat-usage-example"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+async-gigachat = { git = "https://github.com/Partysun/async-gigachat.git" }
+tokio = { version = "1", features = ["full"] }
+anyhow = { version = "*" }
